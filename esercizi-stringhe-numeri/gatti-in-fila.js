@@ -17,3 +17,16 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+//START
+
+var cats = 44;
+var catsInLine = 6;
+
+var inLine = Math.ceil(cats/catsInLine);
+var catsRemaing = (inLine * catsInLine) - cats;
+
+console.log(cats + " gatti si unirono compatti in fila per " + inLine + " con " + catsRemaing + " gatti mancanti!");
+
+//END
