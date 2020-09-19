@@ -8,3 +8,23 @@
   
   http://www.imparareaprogrammare.it
 */
+
+
+
+//START
+
+var erste = 5;
+var zweite = 3;
+var dritte =8;
+var vierte = 2;
+var funfte = 7;
+
+
+var somma = erste + zweite + dritte + vierte + funfte;
+
+var media = somma/5;
+
+console.log("La somma dei 5 numeri è: " + somma + "! La media dei 5 numeri è: " + media + "!");
+
+
+//END
