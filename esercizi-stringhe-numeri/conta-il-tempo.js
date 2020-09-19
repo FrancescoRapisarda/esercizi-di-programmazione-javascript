@@ -12,3 +12,19 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+//START
+
+var sec = 12560;
+
+var totH = Math.round(sec/3600);
+
+var totM = Math.round((sec%3600)/60);
+
+var totSec = Math.round((sec%3600)%60);
+
+console.log(sec + " secondo/i equivalgono a " + totH + " ora/e, " + totM + " minuto/i e " + totSec + " secondo/i.");
+
+
+//END
