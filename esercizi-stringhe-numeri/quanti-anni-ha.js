@@ -11,3 +11,34 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+
+
+//START
+
+var nowAnno = 2020;
+
+var dataDiNascita = 1989;
+
+
+var qah = nowAnno - dataDiNascita;
+
+var cento = (100 - qah);
+
+console.log("Hai " + qah + " anni! Ti rimangono " + cento + " anni per raggiungere i 100!");
+
+
+var nowAnno = 2020;
+
+var dataDiNascita = 1989;
+
+
+var qah = nowAnno - dataDiNascita;
+
+var cento = (100 - qah);
+
+console.log("Hai " + qah + " anni! Ti rimangono " + cento + " anni per raggiungere i 100!");
+
+
+//END
