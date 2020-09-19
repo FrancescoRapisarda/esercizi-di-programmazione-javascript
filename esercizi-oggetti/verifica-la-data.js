@@ -13,3 +13,21 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+
+//START
+
+var data = new Object();
+  data.giorno = 2;
+  data.mese = 13;
+  data.anno = 1989;
+
+  if (data.mese > 12) {
+    console.log("Ehi! I mesi sono solo 12!");
+  } else {
+    console.log("Sei nato giorno " + data.giorno + " nel " + data.mese + "' mese del " + data.anno + "!");
+  }
+
+
+//END
