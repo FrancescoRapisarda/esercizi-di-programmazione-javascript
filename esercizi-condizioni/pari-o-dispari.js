@@ -15,3 +15,19 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+
+//START
+
+
+var num = 31;
+
+if (num%2 == 0) {
+  console.log("Il numero " + num + " è pari!");
+} else {
+  console.log("Il nuero " + num +" è dispari!");
+}
+
+
+//END
