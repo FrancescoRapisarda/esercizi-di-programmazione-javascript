@@ -8,3 +8,15 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+//START
+
+var number = 5;
+
+for (var i = 0; i < 11; i++) {
+  console.log(number*i);
+}
+
+
+//END
