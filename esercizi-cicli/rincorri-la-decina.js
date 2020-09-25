@@ -19,3 +19,18 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+
+//START
+
+
+for (var i = 0; i < 10; i++) {
+
+  for (var j = 1; j < 11; j++)
+    console.log(i*10+j); // i*10+1=1 = 0*10+1 =1
+  console.log("\n"); //vai a capo
+}
+
+
+//END
