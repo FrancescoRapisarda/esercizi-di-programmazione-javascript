@@ -12,3 +12,18 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+//START
+
+function fattoriale(n) {
+  var totfactorial = 1;
+    for (var i = n; i > 1; i--) {
+      totfactorial = totfactorial*i;
+    }
+    console.log("Il fattoriale di " + n + " è: " + (totfactorial) + ".");
+  }
+  var factorial = fattoriale(5);
+
+
+//END
