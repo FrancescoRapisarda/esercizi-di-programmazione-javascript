@@ -14,3 +14,18 @@
             
   http://www.imparareaprogrammare.it
 */
+
+
+//START
+
+function countdown(n) {
+  var count = 0;
+  for (var i = n; i > 0; i--) {
+  count = i-1;
+  console.log("Conto alla rovescia: " + count);
+  }
+}
+var number = countdown(5);
+
+
+//END
