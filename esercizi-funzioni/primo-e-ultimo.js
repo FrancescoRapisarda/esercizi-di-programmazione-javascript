@@ -13,3 +13,39 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+//START
+
+
+function firstMax(a,b,c) {
+  if (a>c) {
+    console.log("Maggiore: " + a);
+  }
+  else if (b>c) {
+    console.log("Maggiore: " + b);
+  }
+  else if (c>a) {
+    console.log("Maggiore: " + c);
+  }
+
+}
+
+function lastMin(a,b,c) {
+  if (a<b) {
+    console.log("Minore: " + a);
+  }
+  else if (b<c) {
+    console.log("Minore: " + b);
+  }
+  else if (c<a) {
+    console.log("Minore: " + c);
+  }
+
+}
+
+var max = firstMax(1,-10,4);
+var min = lastMin(1,-10,4);
+
+
+//END
