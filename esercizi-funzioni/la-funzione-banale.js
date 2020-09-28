@@ -16,3 +16,21 @@
     
   http://www.imparareaprogrammare.it
 */
+
+
+
+//START
+
+function firstFunction(n,m) {
+if (n === m) {
+console.log("TRUE");
+} else {
+  console.log("FALSE");
+}
+
+}
+
+var funzioneBanale = firstFunction(2,3);
+
+
+//END
