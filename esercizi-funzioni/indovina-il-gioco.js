@@ -14,3 +14,35 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+
+//START
+
+
+function gg(day) {
+  if (day>0 && day<8) {
+    console.log("TRUE");
+    return true;
+  } else {
+    console.log("FALSE");
+    return false;
+  }
+}
+
+var giorno = gg(5);
+
+
+function scriviGiorno(settimana) {
+     var listaSett = new Array('Domenica','Lunedì','Martedì','Mercoledì','Giovedì','Venerdì','Sabato');
+     return listaSett[5];
+}
+ var days = scriviGiorno(giorno);
+if (giorno == true) {
+console.log("Hai scelto correttamente un giorno della settimana: " + days + ".");
+} else {
+  console.log("Peccato! Non posso indovinare il giorno.");
+}
+
+
+//END
