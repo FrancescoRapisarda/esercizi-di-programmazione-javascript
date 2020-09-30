@@ -19,3 +19,34 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+//START
+
+
+var playerOne = 5;
+var playerTwo = 10;
+var quantoMancaOne;
+var quantoMancaTwo;
+
+var randomNumber = Math.floor((Math.random()*(100-1) + 1));
+quantoMancaOne = Math.abs(randomNumber - playerOne);
+quantoMancaTwo = Math.abs(randomNumber - playerTwo);
+
+console.log("Numero casuale generato: " + randomNumber);
+
+if (playerOne == randomNumber) {
+  console.log("Giocatore 1 ha lanciato " + playerOne + " e ci ha azzeccato!");
+}
+else if (playerTwo == randomNumber) {
+  console.log("Giocatore 2 ha lanciato " + playerTwo + " e ci ha azzeccato!");
+}
+else if (quantoMancaOne > quantoMancaTwo) {
+  console.log("Nessuno dei due Giocatori ha azzeccato il numero casuale, ma Player 2 ha lanciato " + playerTwo + " e si è avvicinato di più!");
+}
+else {
+  console.log("Nessuno dei due Giocatori ha azzeccato il numero casuale, ma Player 1 ha lanciato " + playerOne + " e si è avvicinato di più!");
+}
+
+
+//END
