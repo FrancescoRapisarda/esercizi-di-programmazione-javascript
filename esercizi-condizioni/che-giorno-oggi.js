@@ -27,7 +27,7 @@
 //START
 
 
-var week = (6)
+var week = 6;
 
 switch (week) {
   case 1:
@@ -64,7 +64,7 @@ switch (week) {
 }
 
 
-var months = (10)
+var months = 10;
 
 switch (months) {
   case 1:
