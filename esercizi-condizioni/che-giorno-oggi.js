@@ -22,3 +22,102 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+//START
+
+
+var week = (6)
+
+switch (week) {
+  case 1:
+      console.log("Lunedì");
+  break;
+
+  case 2:
+      console.log("Martedì");
+  break;
+
+  case 3:
+      console.log("Mercoledì");
+  break;
+
+  case 4:
+      console.log("Giovedì");
+  break;
+
+  case 5:
+      console.log("Venerdì");
+  break;
+
+  case 6:
+      console.log("Sabato");
+    break;
+
+  case 7:
+      console.log("Domenica");
+    break;
+
+  default:
+  console.log("Ehi! Giorno della settimana non valido!");
+
+}
+
+
+var months = (10)
+
+switch (months) {
+  case 1:
+    console.log("Gennaio");
+  break;
+
+  case 2:
+    console.log("Febbraio");
+  break;
+
+  case 3:
+    console.log("Marzo");
+  break;
+
+  case 4:
+    console.log("Aprile");
+  break;
+
+  case 5:
+    console.log("Maggio");
+  break;
+
+  case 6:
+    console.log("Giugno");
+  break;
+
+  case 7:
+    console.log("Luglio");
+  break;
+
+  case 8:
+    console.log("Agosto");
+  break;
+
+  case 9:
+    console.log("Settembre");
+  break;
+
+  case 10:
+    console.log("Ottobre");
+  break;
+
+  case 11:
+    console.log("Novembre");
+  break;
+
+  case 12:
+    console.log("Dicembre");
+  break;
+
+  default:
+    console.log("Ehi. Questo mese non è valido!");
+}
+
+
+//END
